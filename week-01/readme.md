@@ -6,6 +6,8 @@
 
 - DNS Magic and Internals: [Click Here](https://ixraj.hashnode.dev/dns-magic-and-internals)
 
+- Server-Client Architecture: [Click Here](https://ixraj.hashnode.dev/server-client-architecture)
+
 <br>
 
 Access all my articles here: [Click Here](https://ixraj.hashnode.dev/)
