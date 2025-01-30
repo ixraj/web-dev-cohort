@@ -12,6 +12,8 @@
 
 - TCP Handshakes and 3-Way Handshakes: [Click Here](https://ixraj.hashnode.dev/tcp-handshakes-and-the-3-way-handshake)
 
+- HTTP & HTTPS Protocols: [Click Here](https://ixraj.hashnode.dev/http-https-protocols)
+
 <br>
 
 Access all my articles here: [Click Here](https://ixraj.hashnode.dev/)
