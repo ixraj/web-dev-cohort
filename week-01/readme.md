@@ -10,6 +10,7 @@
 
 - Internet Protocols (TCP/IP and UDP): [Click Here](https://ixraj.hashnode.dev/internet-protocols-tcp-and-udp)
 
+- TCP Handshakes and 3-Way Handshakes: [Click Here](https://ixraj.hashnode.dev/tcp-handshakes-and-the-3-way-handshake)
 
 <br>
 
