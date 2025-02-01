@@ -16,7 +16,7 @@ Eraser Link 👇
 
 - HTML Forms and Inputs: User Interaction: [Click Here](https://ixraj.hashnode.dev/html-forms-and-inputs-guide)
 
-- CSS Basics - Styling the Web: [Click Here]()
+- CSS Basics - Styling the Web: [Click Here](https://ixraj.hashnode.dev/css-basics-styling-the-web)
 
 - CSS Layouts - Flex & Grid: [Click Here]()
 
