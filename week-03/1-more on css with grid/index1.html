@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <style>
+      .parent {
+        border: 2px solid #333;
+
+        display: grid;
+        /* grid-template-rows: 100px 60px 30px 60px; */
+        grid-template-rows: repeat(4, 100px);
+        /* grid-template-columns: 100px 100px 100px; */
+        grid-template-columns: repeat(4, 100px);
+        grid-gap: 10px;
+      }
+
+      .child {
+        border: 2px dashed #333;
+        background-color: lightseagreen;
+      }
+      .item-1 {
+        /* grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 4; */
+
+        /* grid-row: 1/3;
+        grid-column: 1/4; */
+
+        /* grid-area: row-start/ col-start/row-end/col-end; */
+        grid-area: 1 / 1 / 3 / 4;
+      }
+      .item-5 {
+        grid-row-start: 4;
+        grid-row-end: 5;
+        grid-column-start: 4;
+        grid-column-end: 5;
+      }
+      .item-4 {
+        grid-column-start: 1;
+        grid-column-end: -2;
+      }      
+    </style>
+
+    <style>
+      .website{
+        border: 1px solid #333;
+        display: grid;
+        grid-template-areas: "header header header"
+                             "content content ads"
+                             "content content ads"
+                             "footer footer footer";
+      }
+      .item{
+        border: 1px dashed #333;
+        background-color: darkcyan;
+      }
+      .header{
+        grid-area: header;
+      }
+      .content{
+        grid-area: content;
+      }
+      .ads{
+        grid-area: ads;
+      }
+      .footer{
+        grid-area: footer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="parent">
+      <div class="child item-1">Item 1</div>
+      <div class="child">Item 2</div>
+      <div class="child">Item 3</div>
+      <div class="child item-4">Item 4</div>
+      <div class="child item-5">Item 5</div>
+    </div> -->
+
+    <div class="website">
+      <div class="header item">Header</div>
+      <div class="content item">Content</div>
+      <div class="ads item">Ads</div>
+      <div class="footer item">Footer</div>
+    </div>
+  </body>
+</html>
