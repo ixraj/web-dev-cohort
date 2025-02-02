@@ -18,6 +18,6 @@ Eraser Link 👇
 
 - CSS Basics - Styling the Web: [Click Here](https://ixraj.hashnode.dev/css-basics-styling-the-web)
 
-- CSS Layouts - Flex & Grid: [Click Here]()
+- CSS Layouts - Flex & Grid: [Click Here](https://ixraj.hashnode.dev/css-layouts-flex-grid)
 
 Access all my articles here: [Click Here](https://ixraj.hashnode.dev/)
