@@ -1,0 +1,192 @@
+:root {
+  --primary-blue: #3b82f6;
+  --primary-blue-dark: #2563eb;
+  --gray-800: #1f2937;
+  --neutral-400: #9ca3af;
+  --neutral-900: #111827;
+
+  /* Dark mode variables */
+  --bg-dark: #111827;
+  --text-dark: #ffffff;
+  --border-dark: #374151;
+}
+
+body {
+  width: 98vw;
+  height: 98vh;
+}
+
+.hero {
+  max-width: 1200px;
+  margin: 11rem auto;
+}
+
+.hero-grid {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 600px 600px;
+  gap: 40px;
+}
+
+.content-col h1 {
+font-size: 84px;
+font-family: sans-serif;
+
+}
+
+.content-col p {
+  font-size: 28px;
+  font-family: sans-serif;
+}
+
+.cta-group {
+}
+
+.sr-only {
+  color: #9ba3b0;
+}
+
+.input-wrapper {
+  display: flex;
+}
+
+input[type='text'] {
+  font-size: 22px;
+  padding: 10px 28px;
+  border-radius: 10px;
+  border-color: #e8eaee;
+  color: #e8eaee;
+  width: 280px;
+}
+
+.demo-button {
+  background-color: #3c82f5;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  padding: 18px 30px;
+  border-radius: 10px;
+}
+
+.demo-button:hover {
+}
+
+.brands-section {
+  margin-top: 4rem;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.trusted-by {
+}
+
+.brand-logos {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-logo {
+  width: 150px;
+}
+
+.image-col {
+}
+
+.hero-image {
+  width: 700px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media (min-width: 640px) {
+  .hero {
+  }
+
+  .content-col h1 {
+    margin: 0;
+  }
+
+  .cta-group {
+  }
+
+  .demo-button {
+  }
+
+  .input-wrapper {
+  }
+
+  input[type='text'] {
+    color: #e8eaee;
+  }
+}
+
+@media (min-width: 768px) {
+  .content-col h1 {
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero {
+  }
+
+  .hero-grid {
+  }
+
+  .content-col h1 {
+  }
+
+  .cta-group {
+    display: flex;
+    gap: 60px;
+  }
+
+  .brands-section {
+  }
+
+  .image-col {
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero-grid {
+    gap: 3rem;
+  }
+}
+
+.dark-mode-toggle {
+  position: relative;
+  left: 92.5rem;
+  top: 6rem;
+  background-color: #2663ec;
+  color: #fff;
+  padding: 12px 28px;
+  font-size: 20px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.dark-mode-toggle:hover {
+}
+
+body.dark {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+.dark-mode-toggle {
+}
+
+.dark-mode-toggle:hover {
+}
+
+input[type='text'].dark {
+}
+
+input[type='text']::placeholder {
+}
