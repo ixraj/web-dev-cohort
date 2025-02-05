@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bricolage Grotesque", serif;
+}
+
+:root {
+  --primary-color: #12181f;
+  --secondary-color: #e9ecef;
+  --primary-text-color: #f8f9fa;
+  --secondary-text-color: #495057;
+  --accent-color: #4444ff;
+}
+
+header {
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.logo {
+  font-size: 34px;
+  font-weight: 600;
+  color: var(--primary-text-color);
+  cursor: pointer;
+}
+
+.nav-links ul {
+  display: flex;
+  gap: 26px;
+  list-style: none;
+}
+
+.nav-links ul li a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.logins button {
+  font-family: "Bricolage Grotesque", serif;
+  color: var(--accent-color);
+  font-weight: 600;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.hero {
+  background-color: var(--secondary-color);
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 2fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  padding: 230px 250px;
+}
+
+.hero-text h3 {
+  font-size: 4rem;
+  margin-bottom: 24px;
+}
+
+.hero-text p {
+  color: var(--secondary-text-color);
+  font-size: 20px;
+  margin-bottom: 36px;
+  padding: 10px 30px 10px 0px;
+}
+.hero-text button {
+  color: var(--primary-color);
+  background-color: var(--primary-text-color);
+  padding: 12px 56px;
+  border-radius: 12px;
+  border: none;
+  font-size: 32px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.hero-img img {
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+#client-section {
+  background-color: var(--secondary-color);
+}
+#client-section h3 {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+.brand-img {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.brand-img img {
+  width: 180px;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 120px;
+}
+
+#cards-section {
+  background-color: var(--secondary-color);
+}
+#cards-section h3 {
+  text-align: center;
+  font-size: 42px;
+}
+.cards {
+  display: flex;
+  padding: 50px 60px;
+  justify-content: space-evenly;
+}
+
+.card {
+    background-color: var(--primary-text-color);
+    width: 350px;
+    padding: 20px;
+    border-radius: 14px;
+    margin-bottom: 75px;
+}
+.card h2 {
+  font-size: 24px;
+  padding: 10px 0px;
+}
+.card p {
+  font-size: 18px;
+  padding: 10px 0px;
+}
+.card img {
+  border-radius: 14px;
+  width: 100%;
+  object-fit: none;
+}
+
+footer p{
+    text-align: center;
+    padding: 24px ;
+    background-color: var(--primary-color);
+    color: var(--primary-text-color);
+}
