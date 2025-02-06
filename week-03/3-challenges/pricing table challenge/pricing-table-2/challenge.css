@@ -1,0 +1,154 @@
+/* Challenge CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  background-color: #1a1a1a;
+}
+
+.container {
+  /* Add your styles here */
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 52px;
+  color: #ff6b6b;
+  margin: 10px 0px;
+}
+
+.subtitle {
+  font-size: 22px;
+  letter-spacing: 1.5px;
+  color: #848484;
+}
+
+.pricing-container {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  justify-content: center;
+  margin: 70px;
+}
+
+.pricing-card {
+  background-color: #262626;
+  border: 2px solid #383838;
+  border-radius: 20px;
+  width: 370px;
+}
+
+.pricing-card:hover {
+  /* Add your styles here */
+}
+
+.card-header {
+  flex-direction: column;
+  margin: 30px;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.icon {
+  font-size: 45px;
+}
+
+.popular-tag {
+  display: inline;
+  position: absolute;
+  top: -20px;
+  left: 105px;
+  background-color: #ffd93d;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 30px;
+}
+
+.price-block {
+  background-color: #82808033;
+  margin: 30px;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.price {
+  font-size: 42px;
+  font-weight: 600;
+  color: #ff6b6b;
+}
+
+.period {
+  color: #858585;
+  text-transform: uppercase;
+}
+
+.features {
+  padding: 10px 40px;
+}
+
+.features li {
+  list-style: none;
+  color: #dddddd;
+  padding: 15px 0px;
+  font-size: 18px;
+}
+
+.features li.disabled {
+  color: #666666;
+}
+
+.join-btn {
+  margin: 25px 50px 30px 50px;
+  padding: 18px 36px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ff6b6b;
+  border: 2px solid #ff6b6b;
+  background-color: transparent;
+  border-radius: 12px;
+  width: 270px;
+}
+
+.join-btn:hover {
+  /* Add your styles here */
+}
+
+.warrior {
+  position: relative;
+  background-color: #312222;
+  border: 2px solid #ff6b6b;
+}
+
+.champion {
+  background-color: #312d1d;
+  border: 2px solid #ffd93d;
+}
+
+.champion .price {
+  color: #ffd93d;
+}
+
+.champion .join-btn {
+  color: #e3c139;
+  border: 2px solid #e3c139;
+}
+
+.champion .join-btn:hover {
+  /* Add your styles here */
+}
